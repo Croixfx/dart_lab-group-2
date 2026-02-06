@@ -1,53 +1,43 @@
 Dart Programming Lab 1: School Management System
-This repository contains a modular implementation of the Dart Programming Lab 1. The project is structured to demonstrate core Dart concepts, ranging from basic functions to advanced asynchronous programming and object-oriented principles.
 
-📂 Project Structure
-To maintain a clean and manageable codebase, the project is divided into logical parts. Each folder contains specific questions and utilizes Dart's import system to reuse code without duplication.
+This repository presents a well-organized and modular solution for Dart Programming Lab 1. The project is designed to showcase essential Dart concepts, starting from fundamental functions and progressing to advanced topics such as asynchronous programming and object-oriented design.
 
+📂 Project Organization
 
-main/PartOne/: Basic functions, named parameters, and optional parameters (Q1–Q3).
+To ensure clarity and ease of maintenance, the codebase is divided into structured sections. Each directory addresses specific lab questions and makes use of Dart’s import mechanism to promote code reuse and avoid repetition.
 
+main/PartOne/: Covers basic functions, including named and optional parameters (Q1–Q3).
 
-main/PartTwo/: Class definitions and constructor initialization (Q4–Q5).
+main/PartTwo/: Focuses on class creation and constructor initialization (Q4–Q5).
 
+main/PartThree/: Demonstrates inheritance concepts using the Person base class (Q6–Q7).
 
-main/PartThree/: Inheritance logic using the Person base class (Q6–Q7).
+main/PartFour/: Explores interface implementation through abstract classes (Q8–Q9).
 
+main/PartFive/: Implements functional mixins to provide shared behavior such as attendance tracking (Q10–Q11).
 
-main/PartFour/: Interface implementation with abstract classes (Q8–Q9).
+main/PartSix/: Handles data storage and manipulation using typed Lists and Maps (Q12–Q13).
 
+main/PartSeven/: Highlights concise syntax using anonymous functions and arrow functions (Q14–Q15).
 
-main/PartFive/: Functional mixins for shared behavior like attendance (Q10–Q11).
+main/PartEight/: Introduces asynchronous operations with Future, async, and await to simulate delayed data loading (Q16–Q17).
 
+main/PartNine/: Serves as an integration task combining multiple mixins and producing final summaries (Q18–Q20).
 
-main/PartSix/: Data management using typed Lists and Maps (Q12–Q13).
+handwritten_scans/: Contains scanned handwritten summaries corresponding to each question.
 
+outputs/: Includes a document with screenshots showing the execution results of all code segments.
 
-main/PartSeven/: Concise coding with Anonymous and Arrow functions (Q14–Q15).
+🚀 Learning Outcomes
 
+Modular Programming: Applying separate files for classes and mixins and connecting them through relative imports to follow the DRY (Don’t Repeat Yourself) principle.
 
-main/PartEight/: Asynchronous data loading using Future, async, and await (Q16–Q17).
+Object-Oriented Programming: Utilizing extends for inheritance, implements for enforcing interface contracts, and with for mixin-based composition.
 
+Collections Management: Effectively managing data using Lists for ordered storage and Maps for accessing objects via unique keys.
 
-main/PartNine/: Integration challenge featuring multiple mixins and final summaries (Q18–Q20).
+Asynchronous Programming: Simulating real-life API response delays to understand non-blocking execution, particularly in Flutter-based applications.
 
+🛠️ Execution Guide
 
-handwritten_scans/: Scanned report summaries for each question.
-
-
-outputs/: Document containing screenshots of all code execution results.
-
-🚀 Key Learning Objectives
-Modular Programming: Implementing classes and mixins in separate files and linking them via relative imports to follow DRY (Don't Repeat Yourself) principles.
-
-
-Object-Oriented Design: Using extends for inheritance, implements for interface contracts, and with for mixin-based composition.
-
-
-Collection Handling: Efficiently storing and retrieving objects using unique keys in Maps and indexed sequences in Lists.
-
-
-Asynchrony: Simulating real-world API delays to understand non-blocking code execution in Flutter environments.
-
-🛠️ How to Run
-Ensure you have the Dart SDK installed. Navigate to the specific file and run:
+Make sure the Dart SDK is properly installed. Navigate to the desired file and execute it using: dart run <filename.dart>
