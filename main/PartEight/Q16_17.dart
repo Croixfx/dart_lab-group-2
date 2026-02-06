@@ -11,7 +11,7 @@ Future<List<Student>> loadStudents() async {
   // Wait for 2 seconds to simulate network delay
   await Future.delayed(Duration(seconds: 2));
   
-  // Returning the list of students
+  // Returning the list of students.
   return studentList;
 }
 

@@ -14,7 +14,7 @@ mixin NotificationMixin {
   }
 }
 
-// Applying it to the Student class
+// Applying it to the Student class.
 class Student extends Person with AttendanceMixin, NotificationMixin implements Registrable{
   int age;
 
